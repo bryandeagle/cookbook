@@ -1,7 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cookbook}
 
-\usepackage[a5paper,margin=0.5in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
 \usepackage{xfrac}
@@ -26,23 +25,21 @@
 % for a \subsubsection{...} followed by two rules across
 % the whole page and by a vertical space.
 %
-% Another command, \ingredients{...}, is defined to typeset a
-% list of ingredients (the \ldots) with the italic font,
-% inside a ``quote'' environment and  after an ``ingredient
+% Another command, \ingredientsients{...}, is defined to typeset a
+% list of ingredientsients (the \ldots) with the italic font,
+% inside a ``quote'' environment and  after an ``ingredientsient
 % header'' \inghead---empty by default, and that can be
 % redefined by the user with, e.g., a
-% \renewcommand{\inghead}{\textbf{Ingredients (4 persons)}:\ }
+% \renewcommand{\inghead}{\textbf{Ingredientsients (4 persons)}:\ }
 % (note the trailing space).
 %
 
+% Format book class a differently
 \LoadClass{book}
-
 \pagestyle{empty}
 \raggedbottom
-
 \setlength\parindent{0pt}
 \setlength\parskip{2ex plus 0.5ex}
-
 \setcounter{secnumdepth}{2}
 
 \def\Vhrulefill{\leavevmode\leaders\hrule height 0.7ex depth \dimexpr0.4pt-0.7ex\hfill\kern0pt}
@@ -60,14 +57,20 @@
     \hrule height0.75pt width\hsize\vspace*{1\p@}%
     \hrule height0.25pt width\hsize}
 
-\newcommand{\ingredients}[1]
-    {{\list{}{\rightmargin 1em\leftmargin 1em}%
-    \item[]\textit{#1}\endlist}%
-    \Vhrulefill \ \includegraphics[width=12pt]{rule.pdf} \Vhrulefill%\hrule height0.25pt width\hsize%
-    \vskip\parskip}
+\newcommand{\cookrule}{\Vhrulefill \ \includegraphics[width=12pt]{rule.pdf} \Vhrulefill}
 
-\newcommand{\directions}[1]{\textbf{Directions}:\ #1}
+\newenvironment{ingredients}%
+    {\begin{description}{\rightmargin 1em\leftmargin 1em}\raggedright\begin{itshape}}%
+    {\end{itshape}\end{description}\cookrule}
 
 \def\half{\sfrac{1}{2}\ }
 \def\third{\sfrac{1}{3}\ }
 \def\quarter{\sfrac{1}{4}\ }
+
+% Definitions for pandoc
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{6pt}\setlength{\parskip}{0pt}}
+\newcommand{\hypertarget}[2]{#2}
+\renewcommand{\label}[1]{}
+\renewcommand{\section}{\recipe}
+\renewenvironment{itemize}{\begin{ingredients}}{\end{ingredients}}
