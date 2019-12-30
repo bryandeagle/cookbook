@@ -1,6 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cookbook}
 
+\usepackage[a5paper,margin=0.5in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
 \usepackage{xfrac}
