@@ -1,5 +1,4 @@
 # Belgian Beef Stew
-
 - 2 lb. beef chuck, cut into 2 in. x \half in. slices
 - 1/4 cup flour
 - 4 tbsp. unsalted butter
@@ -22,8 +21,6 @@ Add bacon and cook until its fat renders, about 8 minutes. Add remaining butter,
 Add half the beer. Cook, scraping bottom of pot, until slightly reduced, about 4 minutes. Return beef to pot with remaining beer, stock, sugar, vinegar, thyme, parsley, tarragon, bay leaf, and salt and pepper. Boil. Reduce heat to medium-low. Cook, covered, until beef is tender, about 1 ½ hours.
 
 # Chicken Enchilada Bowl
-
-Ingredients:
 - 1 lb. boneless skinless chicken thighs
 - 3/4 cup red enchilada sauce
 - 1/4 cup water
@@ -44,8 +41,6 @@ Careully remove the chicken and place onto a work surface. Chop or shred chicken
 To Serve, top with avocado, cheese, jalapeno, sour cream, tomato, and any other desired toppings. Feel free to customize these to your preference.
 
 # Instant Pot Beef Stroganoff
-
-Ingredients:
 - 1 lb. ground beef (or ground turkey or ground pork)
 - 1 small onion, chopped
 - 1 clove garlic, minced
