@@ -1,9 +1,10 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{recipe}
+\ProvidesClass{cookbook}
 
 \usepackage[T1]{fontenc}
 \usepackage{bookman}
 \usepackage{xfrac}
+\usepackage{graphicx}
 
 % If e.g. \section and \subsection commands are not used
 % in the text, the large indentation of the \subsubsection
