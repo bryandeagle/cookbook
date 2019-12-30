@@ -7,5 +7,6 @@ You can view and print the cookbook [here](https://github.com/bryandeagle/cookbo
 
 ## Building
 Simply run the command below
-
-``pdflatex -aux-directory=..\\build -output-directory=..\\output -synctex=0 -interaction=nonstopmode -file-line-error cookbook.tex
+```
+pdflatex -aux-directory=..\\build -output-directory=..\\output -synctex=0 -interaction=nonstopmode -file-line-error cookbook.tex
+```
