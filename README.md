@@ -5,6 +5,8 @@ This is a collection of common recipes I use formatted to be printed out nicely.
 
 You can view and print the cookbook [here](https://github.com/bryandeagle/cookbook/raw/master/output/cookbook.pdf).
 
+You can edit the cookbook [here](https://github.com/bryandeagle/cookbook/blob/master/source/cookbook.tex).
+
 ## Building
 Simply run the command below from the source directory.
 ```
