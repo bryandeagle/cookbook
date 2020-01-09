@@ -23,6 +23,8 @@
 \ExecuteOptions{portrait}
 \ProcessOptions
 
+\newcommand{\degree}{$^{\circ}$}
+
 % Recipe with double rule
 \newcommand{\rechead}
     {\centering\normalfont\Large\sffamily\bfseries}
