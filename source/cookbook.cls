@@ -15,8 +15,8 @@
 \setcounter{secnumdepth}{2}
 
 % Set margins and page size
-\setlength{\paperheight}{8.27in}
-\setlength{\paperwidth}{5.85in}
+\setlength{\paperheight}{210mm}
+\setlength{\paperwidth}{148mm}
 \RequirePackage{geometry}
 \DeclareOption{portrait}{\geometry{portrait, top=0.5in, bottom=0.5in, left=1.0in, right=0.5in}}
 \renewcommand\normalsize{\fontsize{10pt}{12pt}\selectfont}
