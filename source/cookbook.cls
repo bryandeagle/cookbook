@@ -18,7 +18,7 @@
 \setlength{\paperheight}{8.27in}
 \setlength{\paperwidth}{5.85in}
 \RequirePackage{geometry}
-\DeclareOption{portrait}{\geometry{portrait, top=0.5in, bottom=0.5in, left=0.5in, right=0.5in}}
+\DeclareOption{portrait}{\geometry{portrait, top=0.5in, bottom=0.5in, left=1.0in, right=0.5in}}
 \renewcommand\normalsize{\fontsize{10pt}{12pt}\selectfont}
 \ExecuteOptions{portrait}
 \ProcessOptions
