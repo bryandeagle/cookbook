@@ -7,7 +7,7 @@
 \usepackage{graphicx}
 
 % Format book class differently
-\LoadClass{book}
+\LoadClass[oneside]{book}
 \pagestyle{empty}
 \raggedbottom
 \setlength\parindent{0pt}
