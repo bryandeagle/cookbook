@@ -8,7 +8,7 @@
 
 % Format book class differently
 \LoadClass[oneside]{book}
-\pagestyle{empty}
+\pagestyle{plain}
 \raggedbottom
 \setlength\parindent{0pt}
 \setlength\parskip{2ex plus 0.5ex}
@@ -24,12 +24,13 @@
 \ProcessOptions
 
 \newcommand{\degree}{$^{\circ}$}
+\renewcommand{\contentsname}{Recipes}
 
 % Recipe with double rule
 \newcommand{\rechead}
     {\centering\normalfont\Large\sffamily\bfseries}
 \renewcommand{\subsubsection}
-    {\@startsection{subsubsection}{3}{\z@}%
+    {\@startsection{section}{3}{\z@}%
     {-5ex\@plus -1ex \@minus -.2ex}%
     {1.5ex \@plus .2ex}%
     {\rechead}}
@@ -45,7 +46,6 @@
 \newenvironment{ingredients}%
     {\begin{description}{\rightmargin 1em\leftmargin 1em}\raggedright\begin{itshape}}%
     {\end{itshape}\end{description}\vspace*{-\baselineskip}\leavevmode\cookrule}
-
 
 % Definitions for Pandoc
 \providecommand{\tightlist}{%
