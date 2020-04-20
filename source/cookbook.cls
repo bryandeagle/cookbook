@@ -30,12 +30,12 @@
 % Common Symbols
 \newcommand{\degree}{$^{\circ}$}
 
-% Corner Decorations
-\backgroundsetup{opacity=1, scale=1, angle=0, contents={%
-    \begin{tikzpicture}[remember picture, overlay]
-        \node[xshift=-0.25in, yshift=-0.25in] at (current page.north east){\includegraphics[width=12pt]{rule.pdf}};
-        \node[xshift=0.25in, yshift=-0.25in] at (current page.north west){\includegraphics[width=12pt]{rule.pdf}};
-    \end{tikzpicture}}}
+% Corner Decorations (Doesn't Work on Linux)
+%\backgroundsetup{opacity=1, scale=1, angle=0, contents={%
+%    \begin{tikzpicture}[remember picture, overlay]
+%        \node[xshift=-0.25in, yshift=-0.25in] at (current page.north east){\includegraphics[width=12pt]{rule.pdf}};
+%        \node[xshift=0.25in, yshift=-0.25in] at (current page.north west){\includegraphics[width=12pt]{rule.pdf}};
+%    \end{tikzpicture}}}
 
 % Ingredients Environment
 \newenvironment{ingredients}
