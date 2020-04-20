@@ -5,8 +5,8 @@
 \usepackage{xfrac}
 \usepackage{graphicx}
 \usepackage{multicol}
-\usepackage{tikzpagenodes}
-\usepackage{background}
+%\usepackage{tikzpagenodes}
+%\usepackage{background}
 
 % Format book class differently
 \LoadClass[oneside]{book}
